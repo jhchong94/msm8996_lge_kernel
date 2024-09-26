@@ -1,7 +1,7 @@
 #!/bin/bash
 # Generate AnyKernel3 Script
 
-if [ "$DEVICE" = "H870" ] || [ "$DEVICE" = "US997" ] || [ "$DEVICE" = "H872" ]; then
+if [ "$DEVICE" = "H870" ] || [ "$DEVICE" = "H870DS" ] || [ "$DEVICE" = "US997" ] || [ "$DEVICE" = "H872" ]; then
   DEV_NAME=LUCYE
 elif [ "$DEVICE" = "H850" ] || [ "$DEVICE" = "RS988" ] || [ "$DEVICE" = "H830" ]; then
   DEV_NAME=H1
